@@ -1,0 +1,11 @@
+---
+- name: restart redis
+  become: yes
+  service: "name={{ redis_daemon }} state=restarted"
+
+
+- name: restart redis-sentinel
+  become: yes
+  service:
+    name: redis-sentinel
+    state: restarted

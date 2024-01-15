@@ -1,0 +1,11 @@
+---
+__redis_package:
+  - epel-release
+  - redis
+
+redis_daemon: redis
+redis_conf_path: /etc/redis.conf
+redis_conf_mode: 0644
+
+redis_sentinel_path: /etc/redis-sentinel.conf
+redis_sentinel_mode: 0644

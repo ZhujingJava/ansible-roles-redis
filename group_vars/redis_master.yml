@@ -1,0 +1,8 @@
+
+# /etc/ansible/hosts 分组为 redis_master
+redis_bind_interface: 0.0.0.0
+redis_master: yes
+# redis从库需要连接master，关闭保护模式
+protected_mode: 'no'
+
+sentinel_master_ip: "192.168.1.252"

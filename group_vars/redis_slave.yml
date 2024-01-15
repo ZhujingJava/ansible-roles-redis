@@ -1,0 +1,5 @@
+# /etc/ansible/hosts 分组为 redis_slave
+# 填写自己的redis master ip地址
+redis_master_ip: "192.168.1.252"
+
+sentinel_master_ip: "192.168.1.252"
