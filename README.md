@@ -1,3 +1,8 @@
+# 在geerlingguy.redis基础上增加了主从及哨兵模式，redis依赖包模式。
+直接下载后在项目根目录下运行下列命令，拿来即用。
+```shell
+ansible-playbook redis.yml
+```
 # Ansible Role: Redis
 
 [![CI](https://github.com/geerlingguy/ansible-role-redis/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-redis/actions?query=workflow%3ACI)
