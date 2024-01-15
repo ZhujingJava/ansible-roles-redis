@@ -1,5 +1,5 @@
-# 在geerlingguy.redis基础上增加了主从及哨兵模式，redis依赖包模式。
-直接下载后在项目根目录下运行下列命令，拿来即用。
+# 在geerlingguy.redis基础上增加了master-slave参数配置、哨兵模式。
+增加了redis epel依赖包，直接下载后在项目根目录下运行下列命令，拿来即用（RedHat内核系统）。
 ```shell
 ansible-playbook redis.yml
 ```
